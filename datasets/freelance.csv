@@ -1,0 +1,51 @@
+id,career_title,industry_category,median_salary_usd,education_level,skills_required,job_growth_outlook,freelance_remote_potential
+1,Pet Food Tester,Agriculture,"$35,000",High School,"Taste Sensitivity, Animal Nutrition",Low,2
+2,Professional Cuddler,Personal Services,"$40,000",High School,"Empathy, Boundaries",Medium,1
+3,Odor Judge,Manufacturing,"$45,000",High School,"Sensory Evaluation",Low,1
+4,Fortune Cookie Writer,Food Production,"$30,000",High School,"Creativity, Writing",Low,5
+5,Water Slide Tester,Entertainment,"$38,000",High School,"Swimming, Safety",Low,1
+6,Face Feeler (Skincare Testing),Beauty,"$42,000",High School,"Sensory Sensitivity",Low,1
+7,Professional Line Stand-In,Personal Services,"$32,000",None,"Patience",Low,1
+8,Dice Inspector,Manufacturing,"$36,000",High School,"Attention to Detail",Low,1
+9,Golf Ball Diver,Sports,"$45,000",None,"Scuba Certification",Low,1
+10,Snake Milker,Agriculture,"$48,000",Vocational,"Animal Handling",Low,2
+11,Chicken Sexer,Agriculture,"$40,000",Vocational,"Animal Anatomy",Low,1
+12,Professional Mourner,Personal Services,"$35,000",None,"Empathy",Low,1
+13,Stand-up Philosopher,Entertainment,"$50,000",Bachelor's,"Philosophy, Public Speaking",Low,4
+14,Beard Model,Fashion,"$60,000",None,"Photogenic",Low,3
+15,Tea Taster,Food Production,"$55,000",Vocational,"Palate Sensitivity",Medium,2
+16,Professional Sleeper,Healthcare,"$45,000",None,"Sleep Analysis",Low,1
+17,Cat Behaviorist,Animal Care,"$50,000",Certification,"Animal Psychology",Medium,4
+18,LEGO Sculptor,Creative,"$52,000",None,"Creativity",Low,3
+19,Color Consultant,Creative,"$58,000",Associate's,"Color Theory",Medium,5
+20,Professional Bridesmaid,Personal Services,"$45,000",None,"Event Planning",Low,1
+21,Treehouse Architect,Construction,"$65,000",Vocational,"Carpentry",Low,3
+22,Video Game Tester,Technology,"$50,000",High School,"Gaming Skills",Medium,4
+23,Professional Whisperer,Entertainment,"$55,000",None,"Voice Control",Low,3
+24,Island Caretaker,Tourism,"$48,000",None,"Maintenance",Low,1
+25,Mermaid Performer,Entertainment,"$40,000",None,"Swimming",Low,1
+26,Professional Organizer,Personal Services,"$60,000",None,"Organization",Medium,3
+27,Ethical Hacker,Technology,"$85,000",Certification,"Cybersecurity",High,5
+28,Foley Artist,Entertainment,"$65,000",Vocational,"Sound Design",Medium,4
+29,Food Stylist,Creative,"$70,000",Associate's,"Photography",Medium,3
+30,Forensic Artist,Legal,"$75,000",Associate's,"Drawing",Medium,4
+31,Professional Santa Claus,Entertainment,"$50,000",None,"Acting",Low,1
+32,Simulated Patient,Healthcare,"$45,000",None,"Acting",Medium,1
+33,Sommelier,Hospitality,"$80,000",Certification,"Wine Knowledge",Medium,2
+34,Toy Designer,Creative,"$75,000",Bachelor's,"Creativity",Medium,4
+35,Voice Actor,Entertainment,"$60,000",None,"Voice Control",Medium,5
+36,Flavor Chemist,Science,"$85,000",Bachelor's,"Chemistry",Medium,3
+37,Pet Psychic,Animal Care,"$65,000",None,"Intuition",Low,4
+38,Color Namer,Creative,"$55,000",Bachelor's,"Creativity",Low,5
+39,Professional Apologizer,Personal Services,"$45,000",None,"Diplomacy",Low,3
+40,Beekeeping Consultant,Agriculture,"$60,000",Vocational,"Beekeeping",Medium,3
+41,LEGO Sculptor,Creative,"$65,000",None,"Fine Motor Skills",Low,3
+42,Professional Queuer,Personal Services,"$35,000",None,"Patience",Low,1
+43,Ethical Hacker,Technology,"$95,000",Certification,"Programming",High,5
+44,Island Caretaker,Tourism,"$60,000",None,"Self-Sufficiency",Low,1
+45,Professional Snuggler,Personal Services,"$48,000",None,"Comforting Presence",Low,1
+46,Cryptozoologist,Science,"$50,000",Bachelor's,"Research",Low,2
+47,Professional Netflix Watcher,Entertainment,"$40,000",None,"Attention to Detail",Low,4
+48,Dream Interpreter,Personal Services,"$55,000",None,"Psychology",Low,4
+49,Professional Laugh Track Artist,Entertainment,"$65,000",None,"Voice Acting",Low,4
+50,Bubble Wrap Popper,Manufacturing,"$30,000",None,"None",Low,1

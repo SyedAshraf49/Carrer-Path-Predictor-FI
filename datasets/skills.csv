@@ -1,0 +1,31 @@
+id,skill_name,category,description,applicability,difficulty_level
+1,Programming,Technical,"Writing code in Python, Java, etc.","Tech, Data, Engineering",High
+2,Public Speaking,Communication,"Delivering speeches/presentations","Business, Education, Leadership",Medium
+3,Graphic Design,Creative,"Creating visual content (Adobe PS, Canva)","Marketing, Art, Media",Medium
+4,Data Analysis,Technical,"Interpreting data (Excel, SQL, R)","Business, Science, Finance",High
+5,Project Management,Organizational,"Leading teams & deadlines","Business, Construction, IT",High
+6,Carpentry,Physical,"Building/repairing wooden structures","Construction, DIY",Medium
+7,Photography,Creative,"Capturing & editing images","Media, Art, Marketing",Medium
+8,Digital Marketing,Business,"SEO, Social Media, Ads","Entrepreneurship, Sales",Medium
+9,First Aid,Medical,"Emergency medical assistance","Healthcare, Survival",Low
+10,Critical Thinking,Problem-Solving,"Analyzing facts logically","Science, Law, Business",High
+11,Cooking,Life Skill,"Preparing meals","Hospitality, Home",Low
+12,Negotiation,Communication,"Reaching mutual agreements","Sales, Law, Diplomacy",High
+13,Video Editing,Creative,"Editing footage (Premiere Pro, DaVinci)","Media, Marketing",Medium
+14,Foreign Languages,Communication,"Speaking multiple languages","Travel, Business",Medium
+15,Electrical Repair,Technical,"Fixing wiring/devices","Construction, Engineering",High
+16,Writing,Communication,"Content, copy, storytelling","Marketing, Journalism",Medium
+17,Leadership,Soft Skills,"Motivating & guiding teams","Management, Politics",High
+18,Singing,Creative,"Vocal performance","Music, Entertainment",Low
+19,Time Management,Organizational,"Prioritizing tasks efficiently","All Industries",Medium
+20,AI Prompt Engineering,Technical,"Optimizing LLM interactions","Tech, Content",Medium
+21,Financial Literacy,Business,"Budgeting, investing","Personal Finance, Economics",Medium
+22,Driving,Physical,"Operating vehicles","Transportation, Logistics",Low
+23,Cybersecurity,Technical,"Protecting systems from attacks","IT, Government",High
+24,Empathy,Soft Skills,"Understanding others' emotions","Healthcare, Education",Low
+25,Sewing,Life Skill,"Mending/fabricating clothing","Fashion, DIY",Low
+26,Research,Analytical,"Gathering & validating information","Academia, Science",Medium
+27,Robotics,Technical,"Building/Programming robots","Engineering, Education",High
+28,Conflict Resolution,Communication,"Mediating disputes","HR, Law, Diplomacy",Medium
+29,Weightlifting,Physical,"Strength training","Fitness, Sports",Low
+30,UI/UX Design,Creative,"Designing user-friendly interfaces","Tech, Product Development",High

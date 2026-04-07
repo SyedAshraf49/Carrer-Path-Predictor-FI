@@ -1,0 +1,111 @@
+id,career_title,industry_category,median_salary_usd,education_level,skills_required,job_growth_outlook
+1,Accountant,Finance,"$70,000",Bachelor's,"Financial Reporting, Excel",Medium
+2,Actuary,Finance,"$105,000",Bachelor's,"Statistics, Risk Analysis",High
+3,Acupuncturist,Healthcare,"$75,000",Certification,"Alternative Medicine",Medium
+4,Aerospace Engineer,Engineering,"$115,000",Bachelor's,"Aerodynamics, CAD",High
+5,Agricultural Engineer,Agriculture,"$80,000",Bachelor's,"Farm Machinery, Sustainability",Medium
+6,Air Traffic Controller,Transportation,"$125,000",Associate's,"Focus, Multitasking",High
+7,Anesthesiologist,Healthcare,"$330,000",Doctorate,"Medicine, Patient Care",High
+8,Animal Trainer,Agriculture,"$35,000",High School,"Patience, Animal Behavior",Low
+9,Anthropologist,Science,"$60,000",Master's,"Research, Cultural Analysis",Low
+10,Arborist,Agriculture,"$45,000",Vocational,"Tree Care, Climbing",Medium
+11,Archaeologist,Science,"$65,000",Master's,"Excavation, Research",Low
+12,Architect,Engineering,"$80,000",Bachelor's,"Design, CAD",Medium
+13,Archivist,Education,"$55,000",Master's,"Organization, Preservation",Low
+14,Art Director,Creative,"$95,000",Bachelor's,"Creativity, Leadership",Medium
+15,Astronomer,Science,"$110,000",Doctorate,"Physics, Data Analysis",Low
+16,Athletic Trainer,Sports,"$50,000",Bachelor's,"Sports Medicine, First Aid",Medium
+17,Audiologist,Healthcare,"$80,000",Doctorate,"Hearing Tests, Rehabilitation",High
+18,Automotive Engineer,Engineering,"$85,000",Bachelor's,"Mechanical Engineering",Medium
+19,Baker,Hospitality,"$30,000",Vocational,"Baking, Creativity",Low
+20,Barber,Personal Services,"$35,000",Vocational,"Hair Cutting, Customer Service",Medium
+21,Bartender,Hospitality,"$35,000",High School,"Mixology, Customer Service",Low
+22,Biochemist,Science,"$95,000",Doctorate,"Lab Research, Chemistry",High
+23,Bioengineer,Engineering,"$90,000",Bachelor's,"Biology, Engineering",High
+24,Biomedical Engineer,Healthcare,"$90,000",Bachelor's,"Medical Devices, Biology",High
+25,Biophysicist,Science,"$100,000",Doctorate,"Physics, Biology",Low
+26,Bookkeeper,Finance,"$45,000",Associate's,"Accounting, Organization",Low
+27,Botanist,Science,"$65,000",Bachelor's,"Plant Biology, Research",Low
+28,Brickmason,Construction,"$50,000",Apprenticeship,"Masonry, Physical Stamina",Medium
+29,Budget Analyst,Finance,"$75,000",Bachelor's,"Financial Planning, Excel",Medium
+30,Building Inspector,Construction,"$60,000",Associate's,"Construction Knowledge, Detail-Oriented",Medium
+31,Business Analyst,Business,"$85,000",Bachelor's,"Data Analysis, Problem-Solving",High
+32,Butcher,Food Production,"$35,000",High School,"Meat Cutting, Safety",Low
+33,Cabinetmaker,Construction,"$40,000",Vocational,"Woodworking, Precision",Low
+34,Cardiologist,Healthcare,"$400,000",Doctorate,"Medicine, Diagnostics",High
+35,Carpenter,Construction,"$50,000",Apprenticeship,"Woodworking, Math",Medium
+36,Cartographer,Science,"$65,000",Bachelor's,"GIS, Mapping",Low
+37,Caterer,Hospitality,"$45,000",High School,"Food Preparation, Event Planning",Medium
+38,Chef,Hospitality,"$50,000",Vocational,"Culinary Arts, Creativity",Medium
+39,Chemical Engineer,Engineering,"$105,000",Bachelor's,"Chemistry, Process Design",Medium
+40,Chemist,Science,"$75,000",Bachelor's,"Lab Work, Analysis",Medium
+41,Childcare Worker,Education,"$25,000",High School,"Patience, Child Development",Low
+42,Chiropractor,Healthcare,"$75,000",Doctorate,"Spinal Adjustment, Therapy",Medium
+43,Cinematographer,Media,"$65,000",Bachelor's,"Camera Work, Lighting",Medium
+44,Civil Engineer,Engineering,"$87,000",Bachelor's,"CAD, Structural Design",Medium
+45,Climate Scientist,Science,"$90,000",Doctorate,"Climate Modeling, Research",High
+46,Clinical Psychologist,Healthcare,"$80,000",Doctorate,"Therapy, Assessment",High
+47,Comedian,Entertainment,"$50,000",Varies,"Humor, Performance",Low
+48,Computer Programmer,Technology,"$85,000",Bachelor's,"Coding, Problem-Solving",Medium
+49,Construction Manager,Construction,"$95,000",Bachelor's,"Project Management, Leadership",High
+50,Content Strategist,Marketing,"$75,000",Bachelor's,"Writing, SEO",High
+51,Coroner,Legal,"$70,000",Bachelor's,"Forensics, Pathology",Medium
+52,Cosmetologist,Personal Services,"$35,000",Vocational,"Hair Styling, Beauty",Medium
+53,Court Reporter,Legal,"$60,000",Associate's,"Stenography, Attention to Detail",Medium
+54,Crane Operator,Construction,"$60,000",Vocational,"Equipment Operation, Safety",Medium
+55,Cryptographer,Technology,"$120,000",Master's,"Mathematics, Cybersecurity",High
+56,Customer Service Representative,Business,"$35,000",High School,"Communication, Patience",Low
+57,Dancer,Entertainment,"$40,000",Varies,"Performance, Creativity",Low
+58,Data Engineer,Technology,"$120,000",Bachelor's,"Python, SQL, ETL",Very High
+59,Dental Assistant,Healthcare,"$40,000",Vocational,"Patient Care, Sterilization",High
+60,Dental Hygienist,Healthcare,"$75,000",Associate's,"Teeth Cleaning, Patient Care",High
+61,Dentist,Healthcare,"$160,000",Doctorate,"Dental Surgery, Patient Care",High
+62,Dermatologist,Healthcare,"$300,000",Doctorate,"Skin Care, Diagnostics",High
+63,Dietician,Healthcare,"$60,000",Bachelor's,"Nutrition, Counseling",High
+64,Digital Marketer,Marketing,"$70,000",Bachelor's,"SEO, Social Media",High
+65,Director (Film/TV),Media,"$90,000",Bachelor's,"Leadership, Creativity",Medium
+66,Dispensing Optician,Healthcare,"$45,000",Associate's,"Eyewear Fitting, Customer Service",Medium
+67,Doctor,Healthcare,"$200,000",Doctorate,"Medicine, Diagnostics",High
+68,Drafter,Engineering,"$55,000",Associate's,"CAD, Technical Drawing",Low
+69,Economist,Finance,"$105,000",Master's,"Data Analysis, Research",Medium
+70,Editor,Media,"$60,000",Bachelor's,"Grammar, Content Review",Low
+71,Electrician,Trades,"$55,000",Apprenticeship,"Electrical Systems, Troubleshooting",High
+72,Elementary Teacher,Education,"$45,000",Bachelor's,"Communication, Patience",Medium
+63,Embryologist,Science,"$90,000",Master's,"Reproductive Biology, Lab Work",Medium
+64,Emergency Medical Technician,Healthcare,"$35,000",Vocational,"First Aid, Crisis Response",High
+65,Endocrinologist,Healthcare,"$220,000",Doctorate,"Hormone Disorders, Diagnostics",High
+66,Energy Auditor,Engineering,"$60,000",Bachelor's,"Building Inspection, Sustainability",High
+67,Engineer (General),Engineering,"$90,000",Bachelor's,"Problem-Solving, Math",Medium
+68,English Teacher,Education,"$50,000",Bachelor's,"Literature, Communication",Medium
+69,Environmental Engineer,Engineering,"$85,000",Bachelor's,"Sustainability, Regulations",High
+70,Environmental Scientist,Science,"$70,000",Bachelor's,"Research, Data Analysis",High
+71,Event Planner,Business,"$50,000",Bachelor's,"Organization, Creativity",Medium
+72,Executive Assistant,Business,"$60,000",Associate's,"Organization, Communication",Medium
+73,Exercise Physiologist,Healthcare,"$50,000",Bachelor's,"Fitness, Rehabilitation",High
+74,Exterminator,Personal Services,"$40,000",High School,"Pest Control, Safety",Medium
+75,Fabricator,Manufacturing,"$40,000",High School,"Welding, Blueprint Reading",Low
+76,Fashion Designer,Creative,"$75,000",Bachelor's,"Creativity, Sewing",Medium
+77,Film Editor,Media,"$65,000",Bachelor's,"Video Editing, Storytelling",Medium
+78,Financial Advisor,Finance,"$90,000",Bachelor's,"Investments, Communication",High
+79,Financial Analyst,Finance,"$85,000",Bachelor's,"Excel, Financial Modeling",High
+80,Firefighter,Public Safety,"$50,000",Vocational,"Emergency Response, Physical Fitness",Medium
+81,Fisherman,Agriculture,"$35,000",High School,"Seafood Harvesting, Boat Operation",Low
+82,Fitness Trainer,Sports,"$45,000",Certification,"Exercise Science, Motivation",High
+83,Flight Attendant,Transportation,"$50,000",High School,"Customer Service, Safety",Medium
+84,Florist,Personal Services,"$35,000",High School,"Arrangement Design, Customer Service",Low
+85,Food Scientist,Science,"$70,000",Bachelor's,"Food Safety, Research",Medium
+86,Forensic Scientist,Science,"$60,000",Bachelor's,"Lab Work, Evidence Analysis",Medium
+87,Forester,Agriculture,"$60,000",Bachelor's,"Forest Management, Conservation",Medium
+88,Forklift Operator,Manufacturing,"$35,000",High School,"Equipment Operation, Safety",Low
+89,Fundraiser,Non-Profit,"$55,000",Bachelor's,"Communication, Networking",Medium
+90,Game Developer,Technology,"$90,000",Bachelor's,"Programming, Creativity",High
+91,Garbage Collector,Public Services,"$40,000",High School,"Physical Labor, Reliability",Low
+92,Gastroenterologist,Healthcare,"$400,000",Doctorate,"Digestive System, Diagnostics",High
+93,Gemologist,Science,"$50,000",Associate's,"Jewelry Appraisal, Geology",Low
+94,Genetic Counselor,Healthcare,"$80,000",Master's,"Genetics, Counseling",High
+95,Geographer,Science,"$75,000",Bachelor's,"GIS, Research",Low
+96,Geologist,Science,"$90,000",Bachelor's,"Earth Science, Field Work",Medium
+97,Graphic Designer,Creative,"$50,000",Bachelor's,"Adobe Suite, Creativity",Medium
+98,Guidance Counselor,Education,"$60,000",Master's,"Counseling, Education",Medium
+99,Hairdresser,Personal Services,"$35,000",Vocational,"Hair Styling, Customer Service",Medium
+100,Historian,Education,"$60,000",Master's,"Research, Writing",Low

@@ -1,0 +1,31 @@
+id,hobby,category,popularity,indoor_outdoor
+1,Reading,Educational,High,Indoor
+2,Gardening,Nature,Medium,Outdoor
+3,Photography,Creative,High,Both
+4,Cycling,Sports,High,Outdoor
+5,Painting,Creative,Medium,Indoor
+6,Cooking,Food,High,Indoor
+7,Hiking,Nature,Medium,Outdoor
+8,Playing Guitar,Music,Medium,Indoor
+9,Chess,Strategy,Medium,Indoor
+10,Yoga,Wellness,High,Indoor
+11,Fishing,Nature,Medium,Outdoor
+12,Dancing,Creative,High,Both
+13,Knitting,Craft,Low,Indoor
+14,Swimming,Sports,High,Outdoor
+15,Video Gaming,Entertainment,High,Indoor
+16,Bird Watching,Nature,Low,Outdoor
+17,Pottery,Craft,Medium,Indoor
+18,Running,Sports,High,Outdoor
+19,Meditation,Wellness,Medium,Indoor
+20,Collecting Stamps,Collecting,Low,Indoor
+21,Skiing,Sports,Medium,Outdoor
+22,Writing,Creative,Medium,Indoor
+23,Scuba Diving,Adventure,Low,Outdoor
+24,Baking,Food,High,Indoor
+25,Board Games,Strategy,Medium,Indoor
+26,Astronomy,Educational,Low,Both
+27,Singing,Music,Medium,Indoor
+28,Rock Climbing,Adventure,Medium,Both
+29,Origami,Craft,Low,Indoor
+30,Traveling,Adventure,High,Outdoor

@@ -1,0 +1,31 @@
+id,career_title,industry_category,median_salary_usd,education_level,skills_required,job_growth_outlook
+1,Software Engineer,Technology,"$110,000",Bachelor's,"Programming, Problem-Solving",High
+2,Registered Nurse,Healthcare,"$75,000",Bachelor's,"Patient Care, Medical Knowledge",High
+3,Data Scientist,Technology,"$120,000",Master's,"Python, Statistics, Machine Learning",Very High
+4,Elementary Teacher,Education,"$45,000",Bachelor's,"Communication, Patience",Medium
+5,Civil Engineer,Engineering,"$87,000",Bachelor's,"CAD, Structural Design",Medium
+6,Graphic Designer,Creative,"$50,000",Associate's,"Adobe Suite, Creativity",Low
+7,Financial Analyst,Finance,"$85,000",Bachelor's,"Excel, Financial Modeling",High
+8,Electrician,Trades,"$55,000",Vocational,"Electrical Systems, Troubleshooting",Medium
+9,Marketing Manager,Business,"$135,000",Bachelor's,"Digital Marketing, Strategy",High
+10,Chef,Hospitality,"$50,000",Vocational,"Culinary Arts, Creativity",Medium
+11,Psychologist,Healthcare,"$80,000",Doctorate,"Therapy, Research",Medium
+12,Construction Worker,Trades,"$40,000",High School,"Physical Stamina, Teamwork",Low
+13,AI Engineer,Technology,"$150,000",Master's,"Python, Deep Learning",Very High
+14,Lawyer,Legal,"$125,000",Doctorate,"Research, Persuasion",Medium
+15,Farm Worker,Agriculture,"$30,000",High School,"Physical Labor, Machinery",Low
+16,Pilot,Transportation,"$120,000",Bachelor's,"Flight Training, Navigation",High
+17,Social Worker,Social Services,"$50,000",Bachelor's,"Empathy, Crisis Management",High
+18,Architect,Engineering,"$80,000",Bachelor's,"Design, CAD",Medium
+19,Sales Representative,Sales,"$60,000",High School,"Negotiation, Communication",Medium
+20,Biomedical Engineer,Healthcare,"$90,000",Bachelor's,"Biology, Engineering",High
+21,Journalist,Media,"$48,000",Bachelor's,"Writing, Investigative Skills",Low
+22,Dentist,Healthcare,"$160,000",Doctorate,"Dental Surgery, Patient Care",High
+23,HR Manager,Business,"$110,000",Bachelor's,"Recruitment, Conflict Resolution",Medium
+24,Mechanic,Trades,"$45,000",Vocational,"Auto Repair, Diagnostics",Medium
+25,Environmental Scientist,Science,"$70,000",Bachelor's,"Research, Data Analysis",High
+26,Actor,Entertainment,"$50,000",Varies,"Performance, Creativity",Low
+27,Cybersecurity Specialist,Technology,"$130,000",Bachelor's,"Networking, Ethical Hacking",Very High
+28,Plumber,Trades,"$55,000",Vocational,"Pipe Systems, Troubleshooting",High
+29,Statistician,Science,"$95,000",Master's,"Mathematics, Data Modeling",High
+30,UX Designer,Technology,"$90,000",Bachelor's,"User Research, Prototyping",High

@@ -1,0 +1,31 @@
+id,passion,category,description,popularity,environment
+1,Music,Creative,"Playing instruments, singing, composing",High,Indoor/Outdoor
+2,Art,Creative,"Painting, drawing, sculpting, digital art",High,Indoor
+3,Writing,Creative,"Fiction, poetry, blogging, journalism",Medium,Indoor
+4,Dancing,Creative,"Ballet, hip-hop, salsa, contemporary",High,Both
+5,Acting,Creative,"Theater, film, improv",Medium,Indoor
+6,Cooking,Food,"Gourmet cooking, baking, food styling",High,Indoor
+7,Travel,Adventure,"Exploring new cultures, backpacking",High,Outdoor
+8,Photography,Creative,"Nature, portrait, street photography",High,Both
+9,Sports,Athletic,"Soccer, basketball, tennis, swimming",High,Outdoor
+10,Fitness,Wellness,"Gym training, yoga, marathon running",High,Both
+11,Gardening,Nature,"Urban farming, landscaping, bonsai",Medium,Outdoor
+12,Technology,Innovation,"Coding, robotics, AI, gadgets",High,Indoor
+13,Entrepreneurship,Business,"Startups, investing, side hustles",Medium,Both
+14,Reading,Educational,"Fiction, non-fiction, self-help",High,Indoor
+15,Fashion,Design,"Styling, sewing, fashion blogging",Medium,Both
+16,Astronomy,Science,"Stargazing, astrophysics, telescopes",Low,Outdoor
+17,Volunteering,Social,"Charity work, community service",Medium,Both
+18,Gaming,Entertainment,"Video games, board games, esports",High,Indoor
+19,Animals,Pets,"Dog training, horse riding, wildlife conservation",Medium,Both
+20,History,Educational,"Archaeology, historical reenactment",Low,Indoor
+21,Cars,Automotive,"Racing, car restoration, motorsports",Medium,Outdoor
+22,Film,Cinema,"Directing, film analysis, cinematography",Medium,Indoor
+23,Psychology,Mental Health,"Counseling, neuroscience research",Medium,Indoor
+24,DIY,Craft,"Woodworking, home improvement",Medium,Both
+25,Environment,Activism,"Sustainability, climate advocacy",Medium,Both
+26,Languages,Educational,"Learning new languages, linguistics",Medium,Indoor
+27,Meditation,Wellness,"Mindfulness, spiritual growth",Medium,Indoor
+28,Collecting,Hobby,"Stamps, coins, antiques, memorabilia",Low,Indoor
+29,Chess,Strategy,"Competitive chess, puzzles",Medium,Indoor
+30,Magic,Entertainment,"Illusions, card tricks, performance",Low,Both

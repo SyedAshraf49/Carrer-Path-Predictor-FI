@@ -1,0 +1,7 @@
+# Python cache/virtual env
+__pycache__/
+*.pyc
+.venv/
+
+# Large local model artifact (use Git LFS or release assets instead)
+models/career_rf_model.pkl
