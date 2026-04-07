@@ -337,6 +337,15 @@ body.theme-switching::after {
   border-color: rgba(10, 196, 224, 0.35) !important;
 }
 
+:root[data-theme='seabreeze'] .toggle-btn.active,
+:root[data-theme='seabreeze'] .hobby-checkbox:checked + .hobby-label,
+:root[data-theme='seabreeze'] .skill-checkbox:checked + .skill-label {
+  background: linear-gradient(135deg, var(--primary), var(--primary-2)) !important;
+  border-color: var(--primary) !important;
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(10, 196, 224, 0.35) !important;
+}
+
 :root[data-theme='seabreeze'] .feature-card {
   background: linear-gradient(180deg, rgba(13, 58, 143, 0.98), rgba(11, 45, 114, 0.98)) !important;
 }
