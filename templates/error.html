@@ -4,20 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error - Career Path Predictor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        :root {
-            --primary: #06b6d4;
-            --secondary: #f97316;
-            --danger: #ef4444;
-            --dark: #0c1e2e;
-            --light: #f0fdff;
-        }
-
         body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, var(--dark) 0%, #1a4d5e 50%, #2a6575 100%);
+            font-family: var(--font-body);
+            background: var(--bg-accent);
             color: var(--light);
             min-height: 100vh;
             display: flex;
@@ -37,7 +29,7 @@
         }
 
         .error-title {
-            font-family: 'Poppins', sans-serif;
+            font-family: var(--font-display);
             font-size: 2.5rem;
             font-weight: 800;
             background: linear-gradient(135deg, var(--danger), var(--secondary));
@@ -47,7 +39,7 @@
         }
 
         .error-message {
-            background: rgba(26, 58, 82, 0.6);
+            background: var(--surface);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 2rem;
@@ -89,10 +81,10 @@
 
         /* Navbar Styles */
         .navbar {
-            background: rgba(12, 30, 46, 0.8) !important;
+            background: var(--navbar-bg) !important;
             backdrop-filter: blur(10px);
             padding: 1rem 0;
-            border-bottom: 1px solid rgba(6, 182, 212, 0.2);
+            border-bottom: 1px solid var(--border);
             position: absolute;
             top: 0;
             left: 0;
@@ -101,7 +93,7 @@
         }
 
         .navbar-brand {
-            font-family: 'Poppins', sans-serif;
+            font-family: var(--font-display);
             font-weight: 800;
             font-size: 1.5rem;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
@@ -124,7 +116,7 @@
             padding-top: 80px;
         }
     </style>
-    <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}?v=20260516">
 </head>
 <body>
     <!-- Navigation -->
@@ -141,12 +133,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/quiz">Take Quiz</a>
-                    </li>
-                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-                        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
-                            <span data-theme-icon>🌙</span>
-                            <span data-theme-label>Dark</span>
-                        </button>
                     </li>
                 </ul>
             </div>
@@ -172,7 +158,6 @@
             </ul>
         </div>
     </div>
-    <script src="{{ url_for('static', filename='theme.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

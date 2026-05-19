@@ -24,6 +24,8 @@ MODEL_PATH = os.path.join(MODELS_DIR, "career_rf_model.pkl")
 SCALER_PATH = os.path.join(MODELS_DIR, "feature_scaler.pkl")
 ENCODERS_PATH = os.path.join(MODELS_DIR, "sklearn_encoders.pkl")
 TRAINING_SCRIPT_PATH = os.path.join(BASE_DIR, "model_enhanced.py")
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "")
+YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/search"
 
 # USD to INR conversion rate (approximate)
 USD_TO_INR = 83.0
@@ -347,11 +349,14 @@ def career_detail(career_name):
     # Generate learning path
     user_profile = session.get('user_profile', {})
     learning_path = generate_learning_path(career_name, user_profile)
+
+    youtube_videos = fetch_youtube_videos(career_name, limit=5)
     
     return render_template("career_details.html",
                          career=career_name,
                          info=career_info_display,
-                         learning_path=learning_path)
+                         learning_path=learning_path,
+                         youtube_videos=youtube_videos)
 
 @app.route("/download-pdf", methods=["POST"])
 def download_pdf():
@@ -552,6 +557,44 @@ def fetch_linkedin_jobs(title, location="", limit=5):
     
     # Default: return generic tech jobs
     return sample_jobs['Software Engineer'][:limit]
+
+
+def fetch_youtube_videos(career_title, limit=5):
+    """Fetch top YouTube videos for a career title using the YouTube Data API."""
+    if not YOUTUBE_API_KEY:
+        return []
+
+    query = f"{career_title} career roadmap skills"
+    params = {
+        "key": YOUTUBE_API_KEY,
+        "q": query,
+        "part": "snippet",
+        "type": "video",
+        "maxResults": limit,
+        "safeSearch": "strict",
+    }
+
+    try:
+        resp = requests.get(YOUTUBE_API_URL, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        items = data.get("items", [])
+        videos = []
+        for item in items:
+            video_id = item.get("id", {}).get("videoId")
+            snippet = item.get("snippet", {})
+            if not video_id:
+                continue
+            videos.append({
+                "title": snippet.get("title", "Untitled"),
+                "channel": snippet.get("channelTitle", ""),
+                "url": f"https://www.youtube.com/watch?v={video_id}",
+                "thumbnail": snippet.get("thumbnails", {}).get("medium", {}).get("url", ""),
+            })
+        return videos
+    except Exception as exc:
+        print(f"Warning: Could not fetch YouTube videos: {exc}")
+        return []
 
 def generate_learning_path(career_name, user_profile):
     """Generate personalized learning roadmap"""

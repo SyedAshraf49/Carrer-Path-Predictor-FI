@@ -8,11 +8,11 @@
     const label = document.querySelector('[data-theme-label]');
 
     if (icon) {
-      icon.textContent = theme === 'dark' ? String.fromCodePoint(0x1F30A) : String.fromCodePoint(0x1F31B);
+      icon.textContent = theme === 'dark' ? String.fromCodePoint(0x2600) : String.fromCodePoint(0x1F319);
     }
 
     if (label) {
-      label.textContent = theme === 'dark' ? 'Sea Breeze' : 'Dark';
+      label.textContent = theme === 'dark' ? 'Original' : 'Dark';
     }
   }
 
@@ -48,7 +48,7 @@
     if (saved === 'dark' || saved === 'seabreeze') {
       return saved;
     }
-    return 'dark';
+    return 'seabreeze';
   }
 
   document.addEventListener('DOMContentLoaded', function () {
