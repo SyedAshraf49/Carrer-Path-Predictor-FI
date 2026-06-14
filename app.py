@@ -94,7 +94,7 @@ BACHELOR_SCIENCE_OPTIONS = [
 print("🔄 Loading models and data...")
 
 def load_model_artifacts():
-    """Load persisted model artifacts, rebuilding them if the pickle is incompatible."""
+    """Load persisted model artifacts. No rebuild attempt during startup."""
 
     try:
         loaded_model = joblib.load(MODEL_PATH)
@@ -103,39 +103,23 @@ def load_model_artifacts():
         print("✅ Models loaded successfully")
         return loaded_model, loaded_scaler, loaded_encoders
     except FileNotFoundError as e:
-        print(f"❌ Error loading models: {e}")
-        print("⚠️  Missing model artifacts. Regenerating them now...")
+        print(f"⚠️  Model files not found: {e}")
+        print("⚠️  App will use fallback predictions")
+        return None, None, None
     except Exception as e:
-        print(f"❌ Error loading models: {e}")
-        print("⚠️  Existing model artifacts are incompatible with the current scikit-learn version.")
-        print("⚠️  Rebuilding them now with the local environment...")
-
-    try:
-        print(f"⚠️  Attempting to rebuild models using {TRAINING_SCRIPT_PATH}...")
-        result = subprocess.run([sys.executable, TRAINING_SCRIPT_PATH], cwd=BASE_DIR, check=False, capture_output=True, text=True, timeout=300)
-        if result.returncode != 0:
-            print(f"⚠️  Model rebuild script output:")
-            print(result.stdout)
-            print(result.stderr)
-            print(f"⚠️  Model rebuild failed with exit code {result.returncode}")
-        else:
-            loaded_model = joblib.load(MODEL_PATH)
-            loaded_scaler = joblib.load(SCALER_PATH)
-            loaded_encoders = joblib.load(ENCODERS_PATH)
-            print("✅ Rebuilt and loaded models successfully")
-            return loaded_model, loaded_scaler, loaded_encoders
-    except subprocess.TimeoutExpired:
-        print(f"❌ Model rebuild timed out after 300 seconds")
-    except Exception as rebuild_error:
-        print(f"❌ Failed to rebuild models: {rebuild_error}")
-        import traceback
-        traceback.print_exc()
-    
-    print("⚠️  Models not available. Using fallback prediction mode.")
-    return None, None, None
+        print(f"⚠️  Could not load models: {e}")
+        print("⚠️  App will use fallback predictions")
+        return None, None, None
 
 
-model, scaler, encoders = load_model_artifacts()
+try:
+    model, scaler, encoders = load_model_artifacts()
+except Exception as startup_error:
+    print(f"❌ Critical error during model loading: {startup_error}")
+    print("⚠️  Setting models to None for fallback mode")
+    import traceback
+    traceback.print_exc()
+    model, scaler, encoders = None, None, None
 
 try:
     career_df = pd.read_csv("datasets/career.csv")
