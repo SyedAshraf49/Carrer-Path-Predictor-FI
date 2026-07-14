@@ -444,7 +444,7 @@ Screenshots are stored in `screenshots/` and are referenced by `README.md` or ca
 
 ## License
 
-MIT License (if present in your repository).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
